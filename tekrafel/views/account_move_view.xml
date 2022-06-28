@@ -25,7 +25,7 @@
         <record id="tekrafel_view_out_invoice_tree" model="ir.ui.view">
             <field name="name">digifactfel.account.out.invoice.tree</field>
             <field name="model">account.move</field>
-            <field name="inherit_id" ref="account.view_out_invoice_tree"/>
+            <field name="inherit_id" ref="account.view_invoice_tree"/>
             <field name="arch" type="xml">
                 <field name="invoice_date" position="after">
                     <field name="numero_documento_fel"/>
